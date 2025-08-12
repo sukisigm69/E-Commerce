@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La Marcha - Account</title>
+  <link href="output.css" rel="stylesheet" />
+</head>
+<body class="bg-gray-50 min-h-screen">
+  <!-- Header -->
+  <header class="bg-white shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <div class="flex items-center">
+  <span class="text-xl font-bold text-gray-900">La Marcha</span>
+</div>
+        <!-- User Profile -->
+        <div class="flex items-center space-x-2">
+          <img src="aset/gambar/profile3.jpg" alt="Profile" class="w-8 h-8 rounded-full" />
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Breadcrumb -->
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+    <nav class="flex" aria-label="Breadcrumb">
+      <ol class="flex items-center space-x-2">
+        <li><a href="homepage.html" class="text-gray-500 hover:text-gray-700">Home</a></li>
+        <li><i class="fas fa-chevron-right text-gray-400 text-xs"></i></li>
+        <li><a href="profile.html" class="text-gray-900 font-medium">Account</a></li>
+        <li><i class="fas fa-chevron-right text-gray-400 text-xs"></i></li>
+      <a href="orderhistory.html">
+        <li><span class="text-gray-500 hover:text-gray-700">Order History</span></li>
+      </ol>
+      </a>
+    </nav>
+  </div>
+  <!-- Main Content -->
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+    <h1 class="text-4xl font-bold text-gray-900 mb-12">Account</h1>
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <!-- Sidebar -->
+      <div class="lg:col-span-1">
+        <nav class="space-y-2">
+          <a href="homepage.html" class="block px-4 py-3 text-gray-900 font-medium border-b-2 border-gray-900 bg-gray-50">Account Details</a>
+          <a href="orderhistory.html" class="block px-4 py-3 text-gray-600 hover:text-gray-900 hover:bg-gray-50 transition-colors">Order History</a>
+          <a href="#" class="block px-4 py-3 text-gray-600 hover:text-gray-900 hover:bg-gray-50 transition-colors">View Addresses</a>
+          <a href="#" class="block px-4 py-3 text-gray-600 hover:text-gray-900 hover:bg-gray-50 transition-colors">Log Out</a>
+        </nav>
+      </div>
+      <!-- Right Content -->
+      <div class="lg:col-span-2">
+        <!-- Profile Section -->
+        <div class="text-center mb-8">
+          <div class="inline-block relative mb-4">
+            <img src="aset/gambar/profile3.jpg" alt="Profile Picture" class="w-24 h-24 rounded-full mx-auto shadow-lg border-4 border-yellow-400 object-cover" />
+          </div>
+          <h2 class="text-2xl font-bold text-gray-900">Abigailb</h2>
+        </div>
+        <!-- Account Info -->
+        <div class="space-y-6">
+          <div>
+            <label class="block">
+              <span class="sr-only">Email address</span>
+              <input 
+                type="email" 
+                value="abigailbyann@gmail.com" 
+                title="Email address"
+                placeholder="Email address"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-gray-700"
+                readonly
+              />
+            </label>
+          </div>
+          <div>
+            <label class="block">
+              <span class="sr-only">Username</span>
+              <input 
+                type="text" 
+                value="Abigailb" 
+                title="Username"
+                placeholder="Username"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-gray-700"
+                readonly
+              />
+            </label>
+          </div>
+          <div>
+            <label class="block">
+              <span class="sr-only">Country</span>
+              <input 
+                type="text" 
+                value="Indonesia" 
+                title="Country"
+                placeholder="Country"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-gray-700"
+                readonly
+              />
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
